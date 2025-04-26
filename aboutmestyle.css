@@ -1,0 +1,115 @@
+*{
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #121212;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    background: rgb(21, 63, 154); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-right: 15px; padding-left: 15px;
+
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+footer{
+    background: rgb(21, 63, 154); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(21, 63, 154);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(21, 63, 154);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content li {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content li a:hover {
+    background-color: #5c8cc5;
+}
+
+.center {
+    display: block;
+    margin-top: 60px;
+    margin-left: 10% ;
+    width: 20%;
+  }
+  .aboutme-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px;            
+    padding: 20px;
+  }
+  
+  .aboutme-container img {
+    width: 400px;       
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  .text-box {
+    background-color: #1e1e1e;
+    color: whitesmoke;
+    font-size:20px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 700px;
+  }
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .about{
+    font-family: 'Poppins',sans-serif;
+  }
+  .orb img{
+    width: auto;
+    height: auto;
+  }
+  

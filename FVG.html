@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Donlee Pedersen">
+    <meta name="description" content="Day-Trading Website">
+    <link rel="stylesheet" href="aboutmestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Intro to Day-Trading</title>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="navdiv">
+        <div class="logo"><a href="index.html">TheTradeHouse</a></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Strats</a>
+                <ul class="dropdown-content">
+                    <li><a href="ORB.html">ORB</a></li>
+                    <li><a href="FVG.html">FVG//Order Block</a></li>
+                    <li><a href="#">TRENDLINES</a></li>
+                </ul>
+            <li><a href="#">Resources</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+        </ul>   
+    </div>
+</div>
+    </nav>
+    <div class="orb">
+<h1>Fair Value Gaps and Order Blocks</h1>
+<img src="FVG and OB.png" alt="Visual of FVG's with Order block">
+<section>
+    <h1 style="font-size: 40px;">What is FVG's and Order Blocks?</h1>
+<p style="font-size: 24px;">Fair Value Gaps (FVG) and Order Blocks are two important concepts in smart money trading strategies. A Fair Value Gap refers to an imbalance or inefficiency in the market where price moves too quickly, leaving a gap between candles that hasn't been properly traded. Traders often expect price to return to these areas to "fill" the gap before continuing its move. On the other hand, an Order Block represents a zone where large institutions or smart money have placed significant buy or sell orders, often causing major price reversals or continuations. Identifying these zones helps traders predict potential areas of support, resistance, and trend direction with greater accuracy. Together, FVGs and Order Blocks offer a powerful framework for understanding market structure and anticipating future price movements.</p>
+    <h1 style="font-size: 30px;">What are the steps to doing this strategy?</h1>
+    <h3 style="font-size: 30px;"> Step 1. Identify Market Structure </h3>
+    <p style="font-size: 24px;">First, figure out if the market is trending (bullish or bearish) or ranging (moving sideways). Look at higher timeframes for the bigger picture.</p>
+    <h3 style="font-size: 30px;"> Step 2. Spot the Order Blocks & Fair Value Gaps</h3>
+    <img style="width: 800px; height: auto;" src="FVG and OB.png" alt="image of step one of FVG">
+    <p style="font-size: 24px;">Look for strong moves (big bullish or bearish candles) that originate after consolidation or small candles.
+        The last bullish candle before a big drop = bearish order block.
+        The last bearish candle before a big pump = bullish order block.
+        Find areas where there’s a gap between candles — a three-candle setup where the middle candle's wick doesn’t touch the wicks of the candles before and after it. That space is the FVG.</p>
+    <h3 style="font-size: 30px;"> Step 3. Target a recent high or low and set TP </h3>
+    <img style="width: 800px; height: auto;" src="step one orb.png" alt="image of step three of orb">
+    <p style="font-size: 24px;">At this point we should be entered in a trade and looking for where we want to set the finish line. If we are going <span style="font-weight: bold;">LONG</span> we are going to set our TP at a recent high. If we are going <span style="font-weight: bold;">SHORT</span> we are going to set our TP at a recent low.</p>
+
+</section>
+
+    </div>
+    <footer>
+        <div class="contactme">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/donlee-pedersen?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgJYLSWs3RXuRAcWRxyUPuw%3D%3D">LinkedIn</a></li>
+                <li><a href="https://app.joinhandshake.com/profiles/8bqakw">Handshake</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLsGAedScP2nf9Pny17jPNUzcEFQSrsw2C&si=DsDYP1kevt59wokB">Youtube</a></li>
+                <li><a href="#">Skibid</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
